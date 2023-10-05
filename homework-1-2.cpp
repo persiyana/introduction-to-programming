@@ -7,21 +7,19 @@ int main () {
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < i+1; j++)
         {
-            if(i == 0 || j==0 || i==n-1 || j==n-1)
-            {
+            if(i==0 || j==0 || i==n-1 || j==n-1 || j==i){
                 std::cout << n;
             }
-            else
-            {
+            else{
                 std::cout << ' ';
-                if(n > 9)
-                {
+                if(n>9){
                     std::cout << ' ';
                 }
             }
         }
         std::cout << "\n";
+        
     }
 }
