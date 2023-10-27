@@ -31,7 +31,6 @@ void concatTwo(char str[255], char tempStr[255]){
         str[i]=tempStr[count];
         count++;
     }
-   // str[count+length]=0;
 }
 
 void concat(int n){
