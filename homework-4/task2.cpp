@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+
 int lengthStr(char s[255])
 {
     int count = 0;
